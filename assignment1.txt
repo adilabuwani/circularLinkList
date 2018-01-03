@@ -1,0 +1,46 @@
+clear
+
+ size
+
+ is_Empty
+
+add 0 Adil Abuwani
+
+add 1 Mike Mora
+
+add 2 ma
+
+size
+
+is_Empty
+
+clear
+
+size
+
+add 0 adil
+
+add 1 mike
+
+set 0 miky
+
+get 0
+
+remove 0
+
+size
+
+add_last nar
+
+add_last tahir
+
+size
+
+add_last NYC washington DC
+
+print_list
+
+
+
+
+
