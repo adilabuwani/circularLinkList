@@ -209,28 +209,7 @@ public class CircularLinkedList<AnyType> implements List<AnyType>
 		tail=newLink;
 	} //end insert at Last
   
-  ////////////////////////////////////////////////////////////////////////////
   
-  //make sure to remove this function it is JUST FOR YOUR TEST
-  
-  public void display(){
-	  
-	  if(tail==null){
-		  System.out.println("The list is empty");
-		  return;
-	  }
-	  
-	  Node<AnyType> current = tail.next;  //first element
-		
-		do {
-			System.out.print(current.getData() + ",");
-			current = current.getNext();
-			
-		}while(current!=tail.next);
-		
-  }
-	     
-////////////////////////////////////////////////////////////////////////////////
   private class LinkedListIterator implements Iterator<AnyType>
   {
     private Node<AnyType> previous;
